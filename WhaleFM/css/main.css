@@ -1,0 +1,65 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+img.avatar {
+	width: 320px;
+	float: left;
+	margin: 0 40px 0 0;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+
+img.similar {
+	width: 64px;
+	border: 2px solid #337ab7;
+	border-rdius: 4px;
+}
+
+ul.similar-projects {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+	clear: both;
+}
+
+ul.similar-projects li {
+	padding: 0 10px 0 0;
+	float: left;
+}
+
+.btn-primary-offline {
+  background-image: -webkit-linear-gradient(top, #777777 0%, #262626 100%);
+  background-image:      -o-linear-gradient(top, #777777 0%, #262626 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#262626));
+  background-image:         linear-gradient(to bottom, #777777 0%, #262626 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff777777', endColorstr='#ff262626', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #245580;
+  color: #ffffff;
+  cursor: default;
+}
+
+.btn-primary-offline:hover {
+  color: #ffffff;
+/*  background-color: #262626;
+  background-position: 0 -15px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
