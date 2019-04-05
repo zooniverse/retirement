@@ -16,6 +16,12 @@ img.avatar {
 	border-radius: 10px;
 }
 
+img.cover {
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+}
+
 img.similar {
 	width: 64px;
 	border: 2px solid #337ab7;
@@ -52,14 +58,3 @@ ul.similar-projects li {
 /*  background-color: #262626;
   background-position: 0 -15px;*/
 }
-
-
-
-
-
-
-
-
-
-
-
