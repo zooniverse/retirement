@@ -5,6 +5,7 @@
    ========================================================================== */
 
 body {
+	background-color: #eee;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,4 +21,16 @@ img.cover {
 	height: 400px;
 	width: 400px;
 	object-fit: cover;
+}
+
+@media (max-width: 480px) {
+	img.cover {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+	}
+}
+
+span.headline {
+	height: auto
 }
