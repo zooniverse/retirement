@@ -22,12 +22,8 @@
         <link rel="icon" href="favicon.ico" type="image/ico"/>
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="js/main.js"></script>
-        <script>
-          window.onload = setAuthors;
-        </script>
     </head>
-    <body>
+    <body onload="setAuthors(authors)">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -42,18 +38,13 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container container-flex">
-      <img src="img/disk.png" class="avatar cover"/>
       <div>
         <h1>The people who make it all possible!</h1>
         <p>
-            Planets like ours form in disks around stars. Citizen scientists used
-            Disk Detective to find thousands of these disks, including new kinds
-            of disks that had never been seen before, like the "Peter Pan Disk"
-            illustrated here (credit: Jonathan Holden). We're working on a new
-            version of Disk Detective that will be even more powerful. In the
-            meantime, please check out
+            Thank you to the following folunteers, whose millions of clicks have
+            enabled us to produce our research.
         </p>
-        <p id="list"></p>
+        <p id="author_list"></p>
       </div>
     </div>
 
@@ -61,6 +52,8 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/authors.js"></script>
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

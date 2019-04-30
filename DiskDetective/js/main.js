@@ -1,5 +1,4 @@
-const setAuthors = function(authors) {
-  console.log(authors);
-  var authorList = document.getElementById("list");
-  //authorList.innerText = authors;
+function setAuthors(authors) {
+  var authorList = document.getElementById("author_list");
+  authorList.textContent = authors;
 };
