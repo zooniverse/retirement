@@ -4,6 +4,32 @@
    Author's custom styles
    ========================================================================== */
 
+section, section:target ~ #\/index {
+	display: none;
+}
+
+#\/index, section:target {
+	display: block;
+}
+
+#\/authors {
+	padding: 4rem;
+}
+
+#\/authors h2 {
+	color: #2b9edf;
+}
+
+#\/authors p {
+	font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-brand {
+		font-size: 1.25rem !important;
+	}
+}
+
 body {
 	background-color: #eee;
 	font-family: 'Open Sans', sans-serif;
