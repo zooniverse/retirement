@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Old Weather: Whaling: Archive</title>
+        <title>Planet Four: Archive</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -19,34 +19,57 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="icon" href="favicon.ico" type="text/css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body>
+    <body onload="setAuthors(authors)">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <span class="navbar-brand headline" href="#">Archived Zooniverse Project: Old Weather: Whaling</span>
+          <a class="navbar-brand headline" href="#/index">Archived Zooniverse Project: Planet Four</a>
+          <a class="navbar-brand headline" href="#/authors">Authors</a>
+          <a class="navbar-brand headline" href="#/results">Results</a>
         </div>
       </div>
     </nav>
 
+    <section id="/authors">
+      <h2>This is a section of authors</h2>
+      <p id="list"></p>
+    </section>
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <img src="img/cover.jpg" class="avatar cover"/>
-        <div>
-          <h1>Old Weather: Whaling</h1>
-          <p>Whalers have sought their quarry in perilous Arctic waters for centuries. Through Old Weather: Whaling, Zooniverse citizen scientists marked and transcribed ships' logbooks, searching for new clues about climate and history.</p>
-          <p><a class="btn btn-primary btn-lg" href="https://www.oldweather.org" role="button">Old Weather &raquo;</a></p>
-          <p><a class="btn btn-primary btn-lg" href="https://www.zooniverse.org/publications" role="button">Publications &raquo;</a></p>
-          <p><a class="btn btn-primary btn-lg" href="https://www.zooniverse.org/" role="button">Zooniverse &raquo;</a></p>
+    <section id="/index">
+      <div class="jumbotron">
+        <div class="container container-flex">
+          <img src="img/icon.jpg" class="avatar cover"/>
+          <div>
+            <h1>Planet Four</h1>
+            <p>
+              Through Planet Four, Zooniverse volunteers mapped seasonal fans on the
+              south polar region of Mars, providing new insights into the seasonal
+              processes and weather active on the Red Planet.
+            </p>
+            <p>
+              This project is paused while we are working on a new version of Planet
+              Four utilizing the Zooniverse’s latest web platform. Check back soon for
+              updates.
+            </p>
+            <p>
+              In the meantime, please help map the exotic terrains of Mars' south pole
+              with <a href="https://www.zooniverse.org/projects/mschwamb/planet-four-terrains">Planet Four: Terrains</a> or help map polygonal ridges on Mars with
+              <a href="https://www.zooniverse.org/projects/mschwamb/planet-four-ridges">Planet Four: Ridges</a>.
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="https://www.planetfour.org/#/results" role="button">Publications &raquo;</a></p>
+            <p><a class="btn btn-primary btn-lg" href="https://www.zooniverse.org/" role="button">Zooniverse &raquo;</a></p>
+            <p><a class="btn btn-primary btn-lg" href="http://blog.planetfour.org/" role="button">Blog &raquo;</a></p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
