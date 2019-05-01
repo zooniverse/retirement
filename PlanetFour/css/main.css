@@ -16,14 +16,22 @@ section, section:target ~ #\/index {
 	padding: 4rem 8rem;
 }
 
-#\/authors h2 {
-	color: #2b9edf;
+#\/results {
+	padding: 4rem 8rem;
 }
 
-#\/authors span {
+#\/results hr {
+	border: 1px solid black;
+}
+
+section span {
 	display: block;
 	font-weight: bold;
 	margin-bottom: 1rem;
+}
+
+section h2 {
+	color: #2b9edf;
 }
 
 #\/authors p {
