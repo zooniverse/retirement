@@ -8058,8 +8058,8 @@ const authors = [
   'thinth', 'thipkins', 'thirstyjag', 'thiru6466', 'thiry_v', 'thischick',
   'thisgirl91', 'thisis_vitalya', 'thisisall1word', 'thisisdonald', 'thisisjaid',
   'thisiswonderful', 'thistle.orchid', 'thixty', 'thkevlaaa', 'thmchr',
-  'tho405419', 'thododuc', 'thoe', 'thoffma4', 'thom_stone', 'thomac16', 'thomas
-  worthen', 'thomas_kayll', 'thomas_mclellan', 'thomas_snell', 'thomasarnold007',
+  'tho405419', 'thododuc', 'thoe', 'thoffma4', 'thom_stone', 'thomac16',
+  'thomas worthen', 'thomas_kayll', 'thomas_mclellan', 'thomas_snell', 'thomasarnold007',
   'thomasbryant', 'thomasburd', 'thomaselse', 'thomash1964', 'thomashrn',
   'thomasicox', 'thomasjcat', 'thomaskell', 'thomasloesevitz', 'thomasnewbould',
   'thomasnifong', 'thomasob95', 'thomaspoppe', 'thomastuh', 'thombetts',
@@ -8486,8 +8486,8 @@ const authors = [
   'zuffers', 'zulch', 'zulfe', 'zuperzloop', 'zuple', 'zusak190', 'zuurveen',
   'zuxar', 'zvjezda_b', 'zvtaras', 'zwehrlich', 'zweihander', 'zwholle76',
   'zwilson', 'zwogden', 'zxniner', 'zygis', 'zygote2', 'zygotegifts', 'zygurat',
-  'zyniu15', 'zziwicki', 'zzsgng', 'éric ABILY', 'Ľubomír Štiak', 'ТИМОФЕЙ
-  МОТОРНЫЙ', '(Alice) Maria Varela', '--Roony--', '-Astronomer-', '-jair-90',
+  'zyniu15', 'zziwicki', 'zzsgng', 'éric ABILY', 'Ľubomír Štiak',
+  'ТИМОФЕЙ МОТОРНЫЙ', '(Alice) Maria Varela', '--Roony--', '-Astronomer-', '-jair-90',
   '-sv-', '.ransom', '.yo', '00017481', '00245649', '00561', '00901', '00radar00',
   '00skyline00', '00thedude', '01005', '01010110', '0177297', '01784', '017astro',
   '01Nigel', '01jones', '0202kenneth', '02goswej', '04hlawrence', '05-032MB',

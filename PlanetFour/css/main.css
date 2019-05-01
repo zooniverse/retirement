@@ -13,11 +13,17 @@ section, section:target ~ #\/index {
 }
 
 #\/authors {
-	padding: 4rem;
+	padding: 4rem 8rem;
 }
 
 #\/authors h2 {
 	color: #2b9edf;
+}
+
+#\/authors span {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 1rem;
 }
 
 #\/authors p {
