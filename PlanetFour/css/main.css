@@ -1,0 +1,86 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+section, section:target ~ #\/index {
+	display: none;
+}
+
+#\/index, section:target {
+	display: block;
+}
+
+#\/authors {
+	padding: 4rem 8rem;
+}
+
+#\/results {
+	padding: 4rem 8rem;
+}
+
+#\/results hr {
+	border: 1px solid black;
+}
+
+section span {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+section h2 {
+	color: #2b9edf;
+}
+
+#\/authors p {
+	font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-brand {
+		font-size: 1.25rem !important;
+	}
+}
+
+body {
+	background-color: #eee;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img.avatar {
+	width: 320px;
+	float: left;
+	margin: 0 40px 0 0;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+
+img.cover {
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+}
+
+div.container-flex {
+	display: flex;
+}
+
+@media (max-width: 480px) {
+	img.cover {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+	}
+}
+
+@media (max-width: 768px) {
+	div.container-flex {
+		flex-wrap: wrap;
+	}
+}
+
+span.headline {
+	height: auto
+}

@@ -1,0 +1,194 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Planet Four: Archive</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="favicon.ico" type="text/css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body onload="setAuthors(authors)">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand headline" href="#/index">Archived Zooniverse Project: Planet Four</a>
+          <a class="navbar-brand headline" href="#/authors">Authors</a>
+          <a class="navbar-brand headline" href="#/results">Results</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="/authors">
+      <h2>Authors</h2>
+      <span>
+        The science of Planet Four is made possible by the work of our volunteers.
+        These are all the Planet Four volunteers who contributed to the project's
+        <a href="https://arxiv.org/abs/1803.10341">first paper</a>
+        and gave us permission to publish their names:
+      </span>
+      <p id="author_list"></p>
+    </section>
+
+    <section id="/results">
+      <h2>Results</h2>
+      <span>
+        This page allows anyone to download the data files associated with Planet
+        Four papers. Planet Four is described in
+        <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1803.10341">
+          Aye et al. (in press)
+        </a>.
+        Anyone making use of Planet Four data should cite this paper in any
+        resulting publications as well as the appropriate data release paper.
+      </span>
+      <hr/>
+      <h3>Data Release 1</h3>
+      <h4>
+        Planet Four: Probing Springtime Winds on Mars by Mapping the Southern
+        Polar CO2 Jet Deposits
+      </h4>
+      <span>
+        K.-Michael Aye, Megan E. Schwamb, Ganna Portyankina, Candice J. Hansen,
+        Adam McMaster, Grant R.M. Miller, Brian Carstensen, Christopher Snyder,
+        Michael Parrish, Stuart Lynn, Chuhong Mai, David Miller, Robert J. Simpson,
+        & Arfon M. Smith, Planet Four: Probing Springtime Winds on Mars by Mapping
+        the Southern Polar CO2 Jet Deposits, Icarus,in press
+        <a href="https://arxiv.org/abs/1803.10341">(pre-print version)</a>
+      </span>
+      <span>Abstract:</span>
+      <span>
+        The springtime sublimation process of Mars’ southern seasonal polar CO2
+        ice cap features dark fan-shaped deposits appearing on the top of the thawing
+        ice sheet. The fan material likely originates from the surface below the
+        ice sheet, brought up via CO2 jets breaking through the seasonal ice cap.
+        Once the dust and dirt is released into the atmosphere, the material may be
+        blown by the surface winds into the dark streaks visible from orbit. The
+        location, size and direction of these fans record a number of parameters
+        important to quantifying seasonal winds and sublimation activity, the most
+        important agent of geological change extant on Mars. We present results of
+        a systematic mapping of these south polar seasonal fans with the Planet Four
+        online citizen science project. Planet Four enlists the general public to
+        map the shapes, directions, and sizes of the seasonal fans visible in orbital
+        images. Over 80,000 volunteers have contributed to the Planet Four project,
+        reviewing 221 images, from Mars Reconnaissance Orbiter’s HiRISE (High Resolution
+        Imaging Science Experiment) camera, taken in southern spring during Mars Years
+        29 and 30. We provide an overview of Planet Four and detail the processes of
+        combining multiple volunteer assessments together to generate a high fidelity
+        catalog of ∼400,000 south polar seasonal fans. We present the results from
+        analyzing the wind directions at several locations monitored by HiRISE over
+        two Mars years, providing new insights into polar surface winds.
+      </span>
+      <ol>
+        <li>
+          <b><a href="https://data.zooniverse.org/planet_four/P4_catalog_v1.1_L1C_cut_0.5_fan.csv.zip?_ga=2.237745408.1251259690.1556655105-1317633119.1556655105">Fan catalog:</a></b>
+          The resulting fan object catalog for MRO HiRISE seasons 2 and 3 (MY29 and 30),
+          with an applied probability cut of 0.5, i.e. when half or more volunteers have
+          marked an object as fan, it enters this catalog.
+        </li>
+        <li>
+          <b><a href="https://data.zooniverse.org/planet_four/P4_catalog_v1.1_L1C_cut_0.5_blotch.csv.zip?_ga=2.237745408.1251259690.1556655105-1317633119.1556655105">Blotch catalog:</a></b>
+          The resulting blotch object catalog for MRO HiRISE seasons 2 and 3
+          (MY29 and 30), with an applied probability cut of 0.5, i.e. when less
+          than half of volunteers have marked an object as fan, it enters this
+          catalog (starting with a catalog that only has fans and blotches).
+        </li>
+        <li>
+          <b><a href="https://data.zooniverse.org/planet_four/P4_catalog_v1.1_metadata.csv.zip?_ga=2.203454480.1251259690.1556655105-1317633119.1556655105">HiRISE observation catalog:</a></b>
+          This file contains metadata for all HiRISE observations that were used
+          for this catalog.
+        </li>
+        <li>
+          <b><a href="https://data.zooniverse.org/planet_four/P4_catalog_v1.1_tile_coords_final.csv.zip?_ga=2.203454480.1251259690.1556655105-1317633119.1556655105">Planet Four tile catalog:</a></b>
+          This file contains data to locate all Planet Four tiles on a Mars map,
+          using either Mars-centered fixed frame coordinates, or latitude and longitude.
+        </li>
+        <li>
+          <b><a href="https://data.planetfour.org/original/P4_catalog_v1.0_raw_classifications.hdf.zip?_ga=2.203454480.1251259690.1556655105-1317633119.1556655105">Raw data:</a></b>
+          Planet Four raw classification data that was used in our reduction pipeline
+          to create the fan and blotch catalog that is linked on this page
+          (described in Appendix C of the paper, linked below). User names have
+          been anonymized for data privacy.
+        </li>
+        <li>
+          <b><a href="https://data.planetfour.org/original/P4_catalog_v1.0_pipeline_products.zip?_ga=2.203454480.1251259690.1556655105-1317633119.1556655105">Intermediate data products:</a></b>
+          These are the products as described in Appendix D of the paper, linked
+          below. A researcher can apply a different cut on the probability of fan
+          vs blotch identification using these products, reproducing a new fan catalog.
+        </li>
+      </ol>
+      <span>
+        More details about the structure of these files can be found in
+        <a href="https://data.planetfour.org/original/P4_data_files_appendix.pdf?_ga=2.190405675.1251259690.1556655105-1317633119.1556655105">
+          Appendices C to E
+        </a>.
+      </span>
+      <span>
+        We acknowledge the contributions of the Planet Four volunteer community to this work
+        <a href="#/authors">here</a>.
+      </span>
+    </section>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <section id="/index">
+      <div class="jumbotron">
+        <div class="container container-flex">
+          <img src="img/icon.jpg" class="avatar cover"/>
+          <div>
+            <h1>Planet Four</h1>
+            <p>
+              Through Planet Four, Zooniverse volunteers mapped seasonal fans on the
+              south polar region of Mars, providing new insights into the seasonal
+              processes and weather active on the Red Planet.
+            </p>
+            <p>
+              This project is paused while we are working on a new version of Planet
+              Four utilizing the Zooniverse’s latest web platform. Check back soon for
+              updates.
+            </p>
+            <p>
+              In the meantime, please help map the exotic terrains of Mars' south pole
+              with <a href="https://www.zooniverse.org/projects/mschwamb/planet-four-terrains">Planet Four: Terrains</a> or help map polygonal ridges on Mars with
+              <a href="https://www.zooniverse.org/projects/mschwamb/planet-four-ridges">Planet Four: Ridges</a>.
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="#/results" role="button">Publications &raquo;</a></p>
+            <p><a class="btn btn-primary btn-lg" href="https://www.zooniverse.org/" role="button">Zooniverse &raquo;</a></p>
+            <p><a class="btn btn-primary btn-lg" href="http://blog.planetfour.org/" role="button">Blog &raquo;</a></p>
+            <p><a class="btn btn-primary btn-lg" href="https://talk.planetfour.org/" role="button">Discussion Forum &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/authors.js"></script>
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-1224199-28','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
