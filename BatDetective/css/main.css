@@ -19,10 +19,8 @@ img.avatar {
 
 img.cover {
 	height: 400px;
-	margin: 5rem;
-	min-width: 400px;
 	width: 400px;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 div.container-flex {
@@ -37,12 +35,9 @@ div.container-flex {
 
 @media (max-width: 480px) {
 	img.cover {
-		min-height: 200px;
-		min-width: 200px;
 		margin: auto;
 		height: 200px;
 		width: 200px;
-		object-fit: contain;
 	}
 }
 
