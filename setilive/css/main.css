@@ -5,6 +5,7 @@
    ========================================================================== */
 
 body {
+	background-color: #eee;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,50 +17,31 @@ img.avatar {
 	border-radius: 10px;
 }
 
-img.similar {
-	width: 64px;
-	border: 2px solid #337ab7;
-	border-rdius: 4px;
+p.attribution {
+	font-size: 1.2rem;
+	font-style: italic;
 }
 
-ul.similar-projects {
-	list-style: none;
-	padding: 0;
-	margin: 10px 0;
-	clear: both;
+img.cover {
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
 }
 
-ul.similar-projects li {
-	padding: 0 10px 0 0;
-	float: left;
+div.container-flex {
+	display: flex;
 }
 
-.btn-primary-offline {
-  background-image: -webkit-linear-gradient(top, #777777 0%, #262626 100%);
-  background-image:      -o-linear-gradient(top, #777777 0%, #262626 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#262626));
-  background-image:         linear-gradient(to bottom, #777777 0%, #262626 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff777777', endColorstr='#ff262626', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  background-repeat: repeat-x;
-  border-color: #245580;
-  color: #ffffff;
-  cursor: default;
+@media (max-width: 768px) {
+	div.container-flex {
+		flex-wrap: wrap;
+	}
 }
 
-.btn-primary-offline:hover {
-  color: #ffffff;
-/*  background-color: #262626;
-  background-position: 0 -15px;*/
+@media (max-width: 480px) {
+	img.cover {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
