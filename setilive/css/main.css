@@ -1,0 +1,47 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	background-color: #eee;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img.avatar {
+	width: 320px;
+	float: left;
+	margin: 0 40px 0 0;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+
+p.attribution {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+img.cover {
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+}
+
+div.container-flex {
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	div.container-flex {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 480px) {
+	img.cover {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+	}
+}
