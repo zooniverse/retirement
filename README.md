@@ -26,7 +26,7 @@ DEPLOY_PATH="s3://zooniverse-static/www.diskdetective.org/"
 
 # if you want to preseve the original index file for rollback / posterity
 # check the cmd looks right
-aws s3 cp --dryrun "${DEPLOY_PATH}index.html" "${DEPLOY_PATH}old_index_`date '+%Y-%m-%d-%H:%M:%S`.html"
+aws s3 cp --dryrun "${DEPLOY_PATH}index.html" "${DEPLOY_PATH}old_index_`date '+%Y-%m-%d-%H:%M:%S'`.html"
 # run it without dry run
 aws s3 cp "${DEPLOY_PATH}index.html" "${DEPLOY_PATH}old_index_`date '+%Y-%m-%d-%H:%M:%S`.html"
 
