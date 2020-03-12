@@ -1,0 +1,63 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+img.avatar {
+	width: 320px;
+	float: left;
+	margin: 0 40px 0 0;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+
+img.cover {
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+}
+
+img.similar {
+	width: 64px;
+	border: 2px solid #337ab7;
+	border-rdius: 4px;
+}
+
+ul.similar-projects {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+	clear: both;
+}
+
+ul.similar-projects li {
+	padding: 0 10px 0 0;
+	float: left;
+}
+
+div.container-flex {
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	div.container-flex {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 480px) {
+	img.cover {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+	}
+}
+
+span.headline {
+	height: auto
+}
