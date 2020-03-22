@@ -5,23 +5,11 @@
    ========================================================================== */
 
 section, section:target ~ #\/index {
-	display: none;
-}
-
-#\/index, section:target {
 	display: block;
 }
 
-#\/authors {
+#\/index {
 	padding: 4rem 8rem;
-}
-
-#\/results {
-	padding: 4rem 8rem;
-}
-
-#\/results hr {
-	border: 1px solid black;
 }
 
 section span {
